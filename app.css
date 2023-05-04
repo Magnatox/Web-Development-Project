@@ -26,6 +26,15 @@ nav {
     margin-left: auto;
 }
 
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 2.5rem;
+}
+
 .brand {
     margin-right: 1rem;
     margin-left: 1rem;
@@ -33,4 +42,14 @@ nav {
     color: #fff;
     text-decoration: none;
     white-space: nowrap
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.bio {
+    padding: 1rem;
 }
