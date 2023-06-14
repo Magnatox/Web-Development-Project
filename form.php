@@ -13,7 +13,7 @@ if(isset($_POST['email'])){
     $body .= "Email: ".$userEmail."\r\n";
     $body .= "Message: ".$message."\r\n";
 
-   // mail($to, $subject, $body);
+    mail($to, $subject, $body);
 
     $isSent = true;
 }
